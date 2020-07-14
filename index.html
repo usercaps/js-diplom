@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="./img/other/cigarette-icon-8.jpg" type="image/png">
+    <title>Cheap Shop Vape</title>
+</head>
+
+<body>
+    <div class="panel">
+        <div class="contacts-shop">
+            <select name="language" id="lang">
+                <option value="leng" selected>ENG</option>
+                <option value="leng">RU</option>
+            </select>
+        </div>
+        <div class="account">
+            <span id="userName"></span>
+            <a href="register.html" class="login"> log in / Register </a>
+        </div>
+    </div>
+    <div class="header">
+        <header>
+            <a href="index.html" class="h1">Cheap Shop Vape</a>
+            <ul>
+                <li><a href="myaccount.html">My Account</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li>
+                    <h4>Currency</h4><select id="Currency">
+                        <option value="Currency">USD</option>
+                        <option value="Currency">BYN</option>
+                        <option value="Currency">RUB</option>
+                    </select>
+                </li>
+
+                <li><a href="#"><i class="fas fa-shopping-cart"></i>Mycart(<span class="container_counter">0</span>)</a>
+                </li>
+            </ul>
+            <div class="header__burger"></div>
+        </header>
+    </div>
+
+    <div class="container2">
+        <ul>
+            <li><a href="vapes.html">Vapes</a></li>
+            <li><a href="pods.html">Pods</a></li>
+            <li><a href="tanks.html">Tank</a></li>
+            <li><a href="liquids.html">Liquds</a></li>
+            <li><a href="accesoures.html">Accessories</a></li>
+            <li><a href="actions.html" class="Actions">Actions</a></li>
+            <form action="">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </form>
+        </ul>
+    </div>
+    <div class="slider">
+        <!-- Slider main container -->
+        <div class="swiper-container slider-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper slider-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slider-slide" data-swiper-autoplay="2000"
+                    style="background: url('/img/container3-slider/main-image-smoking2-copy.jpg');">
+                    <h3 class="h3_white">Безопаснее чем дым</h3>
+                    <a href="someerr.html">Подробнее</a>
+                </div>
+                <div class="swiper-slide slider-slide" data-swiper-autoplay="2000"
+                    style="background: url('/img/container3-slider/several.jpg');">
+                    <h3>Поможем с выбором вкуса</h3>
+                    <a href="someerr.html">Подробнее</a>
+                </div>
+                <div class="swiper-slide slider-slide" data-swiper-autoplay="2000"
+                    style="background: url('/img/container3-slider/images.jfif');">
+                    <h3>Поможем перемотать ваш девайс</h3>
+                    <a href="someerr.html">Подробнее</a>
+                </div>
+                <div class="swiper-slide slider-slide" data-swiper-autoplay="2000"
+                    style="background: url('/img/container3-slider/smoking-liquids.webp');">
+                    <h3>Поможем с выбором девайса</h3>
+                    <a href="someerr.html">Подробнее</a>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="timer">
+            <div class="timerIo">
+            <!-- Slider main container -->
+            <div class="swiper-container timer-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper timer-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide timer-slide" data-swiper-autoplay="2000">
+                        <h3>Акция1</h3>
+                        <div class="Img-action">
+                            <h2>Тут пока ничего нет(и не будет)
+                                но вот таймер1
+                                <br><span id="time5">05:00</span>
+                            </h2>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide timer-slide" data-swiper-autoplay="2000">
+                        <h3>Акция2</h3>
+                        <div class="Img-action">
+                            <h2>Тут пока ничего нет(и не будет)
+                                но вот таймер2
+                                <br><span id="time7">07:00</span>
+                            </h2>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide timer-slide" data-swiper-autoplay="2000">
+                        <h3>Акция3</h3>
+                        <div class="Img-action">
+                            <h2>Тут пока ничего нет(и не будет)
+                                но вот таймер3
+                                <br><span id="time6">06:00</span>
+                            </h2>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide timer-slide" data-swiper-autoplay="2000">
+                        <h3>Акция4</h3>
+                        <div class="Img-action">
+                            <h2>Тут пока ничего нет(и не будет)
+                                но вот таймер4
+                                <br>
+                                <span id="time3">03:00</span>
+                            </h2>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<div class="container5">
+    <h3>Преимущества</h3>
+    <div class="bloks">
+        <div class="block1">
+            <h2>Почему мы?</h2>
+            <p>Надежные продавцы Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="block2">
+            <h2>Почему у нас?</h2>
+            <p>Быстрая и качественная доставка товара. Lorem, ipsum.</p>
+        </div>
+        <div class="block3">
+            <h2>Просто блок</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officiis fuga eaque magnam cum minus pariatur architecto doloribus quaerat eos beatae quo nam harum sed in quas, dolore perspiciatis neque.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="container6">
+            <div class="main-txt-icons row">
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img">
+                        <img src="./img/svg/icon-main-txt-01.svg" alt="">
+                    </div>
+                    <div class="main-txt-icons_item_txt">Они оградят ваш организм от 4000 ядовитых веществ, выделяющихся
+                        при курении.</div>
+                </div>
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img"><img src="./img/svg/icon-main-txt-02.svg" alt=""></div>
+                    <div class="main-txt-icons_item_txt">Абсолютно пожаробезопасны.</div>
+                </div>
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img"><img src="./img/svg/icon-main-txt-03.svg" alt=""></div>
+                    <div class="main-txt-icons_item_txt">Они избавят вас от неприятного запаха изо рта, от рук и одежды.
+                    </div>
+                </div>
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img"><img src="./img/svg/icon-main-txt-04.svg" alt=""></div>
+                    <div class="main-txt-icons_item_txt">Лишены так называемого эффекта пассивного курения.</div>
+                </div>
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img"><img src="./img/svg/icon-main-txt-05.svg" alt=""></div>
+                    <div class="main-txt-icons_item_txt">Многие заведения, где курение обычных сигарет запрещено,
+                        разрешают парение.</div>
+                </div>
+                <div class="main-txt-icons_item col-xs-6 col-md-2">
+                    <div class="main-txt-icons_item_img"><img src="./img/svg/icon-main-txt-06.svg" alt=""></div>
+                    <div class="main-txt-icons_item_txt">Дым заменен на пар и имеет разный вкус.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blockoftext">
+            <div class="subtitle st2">Решили перейти на электронные сигареты?</div>
+            <p>Всё больше курильщиков отдают предпочтение электронным сигаретам. По какой причине? Давайте попробуем
+                разобраться.</p>
+        </div>
+
+        <div class="vybor row">
+
+            <div class="vybor-item">
+                <div class="vybor-item_img"><img class="" alt="" src="./img/other/vybor1.jpg">
+                    <div class="vybor-item_img_txt">ВЫ ВЫБИРАЕТЕ ЭЛЕКТРОННЫЕ СИГАРЕТЫ&nbsp;ПОТОМУ, ЧТО ЗАБОТИТЕСЬ О
+                        СВОЕМ
+                        ЗДОРОВЬЕ.</div>
+                </div>
+                <div class="vybor-item_txt">
+                    <p style="text-align: justify;">Ведь уже доказано, что наибольший вред курильщику приносит не
+                        никотин,
+                        капля которого, как нам твердили с детства, убивает лошадь, а более 4000 ядовитых и
+                        канцерогенных
+                        продуктов горения табака. Проще говоря, большинство страшных заболеваний, которыми пугают
+                        курильщиков, вызывает не никотин, а способ его попадания в организм – дым. В случае с вейпом,
+                        никотин попадает в легкие при помощи пара. При этом Вы не лишаете себя привычного ритуала
+                        курения –
+                        ощущения практически идентичны курению обычной сигареты.</p>
+                </div>
+            </div>
+            <div class="vybor-item">
+                <div class="vybor-item_img" style="text-align: justify;"><img class="" alt=""
+                        src="./img/other/vybor2.jpg">
+                    <div class="vybor-item_img_txt">ВЫ ВЫБИРАЕТЕ ЭЛЕКТРОННЫЕ СИГАРЕТЫ ПОТОМУ, ЧТО
+                        ЦЕНИТЕ КОМФОРТ И СВОЕ ВРЕМЯ.</div>
+                </div>
+                <div class="vybor-item_txt" style="text-align: justify;">
+                    <p style="text-align: justify;">Для того, чтобы удовлетворить потребность в курении, Вам теперь не
+                        нужно
+                        покидать помещение или спрашивать разрешения закурить у окружающих. Вы можете курить прямо на
+                        рабочем месте, в машине, дома или в кафе (во многих заведениях это разрешено) – вейп абсолютно
+                        безопасен для окружающих и не причиняет им неудобства.</p>
+                </div>
+            </div>
+            <div class="vybor-item">
+                <div class="vybor-item_img"><img class="" alt="" src="./img/other/vybor3.jpg">
+                    <div class="vybor-item_img_txt">ВЫ ВЫБИРАЕТЕ ЭЛЕКТРОННЫЕ СИГАРЕТЫ&nbsp;ПОТОМУ,
+                        ЧТО ВАМ НЕ БЕЗРАЗЛИЧЕН ВАШ ВНЕШНИЙ ВИД И ПРОИЗВОДИМОЕ ВПЕЧАТЛЕНИЕ.</div>
+                </div>
+                <div class="vybor-item_txt">
+                    <p style="text-align: justify;">Это преимущество особенно оценят женщины. Ведь вейп, в сравнении с
+                        обычной сигаретой, не вызывает таких неприятных побочных эффектов, как неприятный запах изо рта
+                        и
+                        пожелтевшие пальцы.</p>
+                    <p style="text-align: justify;">Если Вы заинтересовались электронными сигаретами, значит, Вам не
+                        безразлично собственное здоровье, и Вы заботитесь о тех, кто находится рядом.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <footer>
+                <div class="contacts-info">
+                    <a href="contact.html">CONTACT</a>
+                    <a href="someerr.html">RETURN POLICY</a>
+                    <a href="someerr.html">SHIPPING</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="someerr.html">PRIVACY POLICY</a>
+                </div>
+                <div class="sites">
+                    <a href="https://web.facebook.com/usercaps"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/nevdakhsergei/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://vk.com/user_caps"><i class="fab fa-vk"></i></a>
+                    <a href="someerr.html"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.pinterest.com/krevedko18"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <h2>2020 Diploma of Js</h2>
+            </footer>
+        </div>
+
+        <script src="https://kit.fontawesome.com/2b1161ba7d.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="/dist/app.js"></script>
+</body>
+
+</html>

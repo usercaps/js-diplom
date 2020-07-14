@@ -1,0 +1,24 @@
+.container_products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    height: 300px;
+    border: 1px solid #000;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .item .img {
+    background-image: url("./images/babycat.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .item .name {
+    font-size: 20px;
+    font-weight: 700;
+  }

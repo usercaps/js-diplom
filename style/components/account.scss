@@ -1,0 +1,28 @@
+.account-content{
+    height: 100vh;
+}
+
+
+.person{
+    display: flex;
+    justify-content: space-around;
+    
+
+    img{
+        width: 300px;
+    }
+
+    .info{
+        margin-left: 50px;
+    }
+
+    .edit-info{
+        display: none;
+
+            input{
+                width: 200px;
+                padding: 10px;
+            }
+
+        }
+    }

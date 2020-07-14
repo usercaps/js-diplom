@@ -1,0 +1,115 @@
+@media (max-width: 1260px) {
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+
+        .ActionOfDay {
+        width: 90%;
+        margin: 2em auto;
+        border-radius: 20px;
+
+            .Img-action {
+            position: relative;
+            left: 0;
+            width: 90%;
+            height: auto;
+            margin: 15px auto;
+            padding: 60px 0px;
+            border-radius: 10px/9px;
+            }
+        }   
+
+    }
+
+    .container3 .infinity-slider {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        bottom: 25px;
+
+        .btn-rigth {
+            left: 40px;
+        }
+
+        .infinity-container {
+            width: 90%;
+            margin: 0 auto;
+            top: 25px;
+            left: 60px;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 969px) {
+
+    body {
+        background: radial-gradient(circle, rgba(198, 198, 198, 1) 0%, rgba(0, 0, 0, 1) 99%);
+    }
+
+    .container2 {
+        width: 90%;
+        margin: 2em auto;
+        border-radius: 20px;
+    }
+    .container2 ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 30px 0;//не ботт ибо перезапись
+    }
+
+    .container2 form {
+        order:  -1;
+        padding: 1em 0;
+    }
+
+    .container3 .infinity-slider .infinity-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) { //ipad
+
+    header {
+        position: relative;
+
+        .header__burger {
+            position: absolute;
+            right: 35px;
+            top: 35px;
+            display: flex;
+            width: 4em;
+            height: 0.6em;
+            background: #000;
+
+            &::before {
+                position: absolute;
+                top: -20px;
+                right: 10px;
+                width: 4em;
+                height: 0.6em;
+                background: #000;
+                transform: rotate(8639deg);
+                transition: 2s;
+                content: '';
+            }
+
+            &::after {
+                position: absolute;
+                top: 20px;
+                right: 10px;
+                width: 4em;
+                height: 0.6em;
+                background: #000;
+                transform: rotate(8639deg);
+                transition: 2s;
+                content: '';
+            }
+        }
+    }
+}

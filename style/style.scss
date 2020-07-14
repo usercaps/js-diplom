@@ -1,0 +1,197 @@
+@import "/style/components/header.scss";
+@import "/style/components/settings.scss";
+@import "/style/catalog/style.css";
+@import "/style/components/register/register.scss";
+@import "/style/components/footer.scss";
+@import "/style/components/slider.scss";
+@import "/style/faq.scss";
+@import "/style/components/errorpage.scss";
+@import "/style/components/about.scss";
+@import "/style/components/contact.scss";
+@import "/style/components/account.scss";
+
+.panel {
+    &:hover{
+        height: 40px;
+    }
+    z-index: 15;
+    position: fixed;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    color: #fff;
+    a{    border: 1px solid black;
+        text-decoration: none;
+        color: #000;}
+    .contacts-bar{
+      margin-left: 20px;
+    }
+    .account{
+      margin-right: 20px;
+    }
+  }
+
+.container2 {
+    // height: 40px;
+    background: lavenderblush;
+    display: flex;
+    ul {
+        position: relative;
+        // left: 120px;
+        top: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;    
+        padding: 0 3em;
+        list-style: none;
+        li {
+            text-align: center;
+            margin: 15px;
+                a{
+                    text-decoration: none;
+                    transition: 1s;
+                    color: #000;
+                    font-size: 20px;
+                    &:hover {
+                        // color: #e13ed7;
+                        font-size: 22px;
+                    }
+                }
+                .Actions{
+                    border: 1px solid red;
+                    background: red;
+                    color: #fff;
+                }
+        }
+        
+    }
+    form{
+        position: relative;
+        top: 15px;
+        right: -10px;
+        input{
+            width: 260px;
+        }
+        button{
+            background: grey;
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            font-size: 20px;
+            &:hover {
+                background: red;
+                // font-size: 22px;
+            }
+        }
+    }
+}
+
+.container5{
+    h3{
+        text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+    }
+    .bloks{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        .block1{
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: #fff0f5;
+        }
+        .block2{
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: #fff0f5;
+        }
+        .block3{
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: #fff0f5;
+        }
+    }
+}
+
+.container6{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+    // margin-left: 60px;
+    .main-txt-icons{
+        display: flex;
+        justify-content: space-around;
+    flex-wrap: wrap;
+
+    }
+}
+.blockoftext{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.vybor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .vybor-item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        // justify-content: space-around;
+    }
+    .vybor-item_img{
+        margin-left: 20px;
+        img{
+            width: 344px;
+            height: 206px;
+        }
+        .vybor-item_img_txt{
+            width: 344px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .vybor-item_txt{
+        width: 344px;
+        p{
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+
+.mainfeatured .subtitle.st1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.mainfeatured .subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    color: #343434;
+}
+
+.crumb{
+    display: flex;
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: large;
+    }
+}
+
+
+  .visible {
+    display: block;
+  }
+@import "/style/components/media.scss";

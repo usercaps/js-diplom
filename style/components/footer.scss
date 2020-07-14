@@ -1,0 +1,30 @@
+.footer{
+        footer{
+            text-align: center;
+            height: 240px;
+            background: #f4f4f4;
+            .contacts-info{
+                padding-top: 70px;
+                padding-bottom: 30px;
+                a{
+                    
+                    margin-right: 15px;
+                    text-decoration: none;
+                    color: #5e4d4d;
+                }
+            }
+            .sites{
+                padding-bottom: 30px;
+                a{
+                    text-decoration: none;
+                    margin-right: 10px;
+                    color: #5e4d4d;
+                }
+            }
+            h2{
+                margin-bottom: 70px;
+                font-size: 14px;
+                color: #5e4d4d;
+            }
+        }
+    }
