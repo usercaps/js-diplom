@@ -14,7 +14,7 @@
   "author": "me",
   "license": "MIT",
   "dependencies": {
-    "swiper": "^6.0.2"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
